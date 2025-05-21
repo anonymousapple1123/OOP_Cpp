@@ -28,7 +28,7 @@ title = validateAndTrim(t,MAX_TITLE_LENGTH, "title");
 }
 
 void review::setText(const std::string& txt){
-txt = validateAndTrim(txt,MAX_TEXT_LENGTH, "Review Text");
+text = validateAndTrim(txt,MAX_TEXT_LENGTH, "Text");
 
 }
 
