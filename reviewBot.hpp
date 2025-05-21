@@ -1,6 +1,6 @@
 #pragma once
 #include "review.hpp"
 class reviewBot{
-private:
+public:
     void fixFormatting(review& object);
 };
