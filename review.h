@@ -15,7 +15,14 @@ class review{
         
     public:
         review(unsigned int r, const std::string&t , const std::string&txt);
+        
         void displayDetails() const;
+        unsigned int detRating()const{return rating;};
+        std::string getTitle()const{return title;};
+        std::string getText() const{return text;};  
+        void setRating(unsigned int r);
+        void setTitle(const std::string& t);
+        void setText(const std::string& txt);
 
         ~review();
 };
