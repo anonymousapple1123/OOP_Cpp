@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/fyodor/VScode/GitProject/OOP_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/MyApp.dir/main.cpp.o -c /home/fyodor/VScode/GitProject/OOP_Cpp/main.cpp",
+  "file": "/home/fyodor/VScode/GitProject/OOP_Cpp/main.cpp",
+  "output": "CMakeFiles/MyApp.dir/main.cpp.o"
+},
+{
+  "directory": "/home/fyodor/VScode/GitProject/OOP_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/MyApp.dir/review.cpp.o -c /home/fyodor/VScode/GitProject/OOP_Cpp/review.cpp",
+  "file": "/home/fyodor/VScode/GitProject/OOP_Cpp/review.cpp",
+  "output": "CMakeFiles/MyApp.dir/review.cpp.o"
+}
+]

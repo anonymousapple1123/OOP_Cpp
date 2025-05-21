@@ -14,7 +14,10 @@ class review{
         std::string text;
         
     public:
+        review(unsigned int r, const std::string&t , const std::string&txt);
         void displayDetails() const;
+
+        ~review();
 };
 
 #endif
