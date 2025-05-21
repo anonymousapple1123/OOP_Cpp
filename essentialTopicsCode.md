@@ -16,3 +16,7 @@
                     int parent_class_parameter_y,
                     int child_class_parameter_z) : parentclass(parent_class_parameter_x, parent_class_parameter_y)
                 }
+
+
+## Overriding function decision happens at runtime not at time of compiling and this is called RUNTIME POLYMORPHISM.
+## Dynamic Dispatch -> When a class declares virtual function the lookup directory containing function pointers for virtual functions gets created known as the virtual table. The virtual table contains the addresses of the virtual functions at predetermined offsets along with this table the compiler also adds the hidden member variable that points to this table. The table pointer is inherited by all derived classes. Essentially the new object contains a hidden pointer that points to its virtual function.
