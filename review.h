@@ -1,0 +1,20 @@
+#ifndef REVIEW_H
+#define REVIEW_H
+#include <iostream>
+
+// -> Classes in cpp.
+
+class review{
+    // protected: allowes controlled access to derived class.
+    // friend: can access private and protected memebers of the class
+    //default for classes is -> private , for structs -> public
+    private:
+        unsigned int rating;
+        std::string title;
+        std::string text;
+        
+    public:
+        void displayDetails() const;
+};
+
+#endif
