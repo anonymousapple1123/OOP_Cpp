@@ -15,6 +15,12 @@ class review{
         unsigned int rating;
         std::string title;
         std::string text;
+        static const unsigned int MAX_RATING =5;
+        static const unsigned int MIN_RATING =1;
+        static const unsigned int MAX_TITLE_LENGTH = 128;
+        static const unsigned int MAX_TEXT_LENGTH =1024;
+
+
         
     public:
         review(unsigned int r, const std::string&t , const std::string&txt);

@@ -8,27 +8,27 @@ void review::displayDetails() const{
     std::cout<<"Message : "<<text<<std::endl;
 }
 review::review(unsigned int r, const std::string&t , const std::string&txt){
-    rating = r;
-    title = t;
-    text = txt;
+    setRating(r);
+    setTitle(t);
+    setText(txt);
 }
 review::~review(){
     std::cout<<"DESTRUCTOR MESSAGE ~ Reivew object is deleted ~ "<<std::endl;
 }
 
 void review::setRating(unsigned int r){
-if(r < 1 || r > 5){
+if(r < MIN_RATING || r > MAX_RATING){
     throw std::invalid_argument("Rating must be between 1 and 5.");
 }
 rating = r;
 }
 
 void review::setTitle(const std::string& t){
-title = validateAndTrim(t,128, "title");
+title = validateAndTrim(t,MAX_TITLE_LENGTH, "title");
 }
 
 void review::setText(const std::string& txt){
-txt = validateAndTrim(txt,1024, "Review Text");
+txt = validateAndTrim(txt,MAX_TEXT_LENGTH, "Review Text");
 
 }
 
