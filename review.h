@@ -9,6 +9,9 @@ class review{
     // friend: can access private and protected memebers of the class
     //default for classes is -> private , for structs -> public
     private:
+        std::string validateAndTrim(const std::string& str,
+                                    unsigned int maxLength,
+                                    const std::string FieldName)const;
         unsigned int rating;
         std::string title;
         std::string text;

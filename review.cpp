@@ -24,15 +24,20 @@ rating = r;
 }
 
 void review::setTitle(const std::string& t){
-if(t.empty()){
-    throw std::invalid_argument("Cannot be emply title.");
-}
-title = t.length()>128? t.substr(0,128) : t;
+title = validateAndTrim(t,128, "title");
 }
 
 void review::setText(const std::string& txt){
-if(txt.empty()){
-    throw std::invalid_argument("Cannot be emply Review.");
+txt = validateAndTrim(txt,1024, "Review Text");
+
 }
-title = txt.length()>128? txt.substr(0,128) : txt;
+
+std::string review::validateAndTrim(const std::string& str,
+                            unsigned int maxLength,
+                            const std::string FieldName)const{
+                           
+if(str.empty()){
+    throw std::invalid_argument(FieldName+"Field cannot be empty.");
+}
+return str.length()>maxLength? str.substr(0,maxLength) : str;
 }
