@@ -10,5 +10,11 @@
   "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/MyApp.dir/review.cpp.o -c /home/fyodor/VScode/GitProject/OOP_Cpp/review.cpp",
   "file": "/home/fyodor/VScode/GitProject/OOP_Cpp/review.cpp",
   "output": "CMakeFiles/MyApp.dir/review.cpp.o"
+},
+{
+  "directory": "/home/fyodor/VScode/GitProject/OOP_Cpp/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/MyApp.dir/reviewBot.cpp.o -c /home/fyodor/VScode/GitProject/OOP_Cpp/reviewBot.cpp",
+  "file": "/home/fyodor/VScode/GitProject/OOP_Cpp/reviewBot.cpp",
+  "output": "CMakeFiles/MyApp.dir/reviewBot.cpp.o"
 }
 ]

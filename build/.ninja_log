@@ -1,7 +1,5 @@
 # ninja log v6
-3	321	1747824652151882429	CMakeFiles/MyApp.dir/review.cpp.o	2b62ab891fadadfe
-3	384	1747835923587845617	CMakeFiles/MyApp.dir/main.cpp.o	474deff8cc51953b
-321	417	1747824652469896389	MyApp	704be2a2cf831a73
-1	347	1747836409948689006	CMakeFiles/MyApp.dir/main.cpp.o	474deff8cc51953b
-2	383	1747836409949689028	CMakeFiles/MyApp.dir/review.cpp.o	2b62ab891fadadfe
-383	488	1747836410330697508	MyApp	704be2a2cf831a73
+4	358	1747838984383550017	CMakeFiles/MyApp.dir/review.cpp.o	2b62ab891fadadfe
+3	330	1747838984382549986	CMakeFiles/MyApp.dir/main.cpp.o	474deff8cc51953b
+358	465	1747838984737560973	MyApp	a5b5122cbba90861
+4	328	1747838984383550017	CMakeFiles/MyApp.dir/reviewBot.cpp.o	c9cf1b0dbd0e5ee5

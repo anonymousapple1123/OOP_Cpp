@@ -1,5 +1,4 @@
-#ifndef REVIEW_H
-#define REVIEW_H
+#pragma once
 #include <iostream>
 
 // -> Classes in cpp.
@@ -20,7 +19,7 @@ class review{
         static const unsigned int MAX_TITLE_LENGTH = 128;
         static const unsigned int MAX_TEXT_LENGTH =1024;
         mutable unsigned int accessCount = 0; //mutable allows this varibale to change in the display function despite the function being a const.
-
+        friend class reviewBot;
 
         
     public:
@@ -36,5 +35,3 @@ class review{
 
         ~review();
 };
-
-#endif

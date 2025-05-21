@@ -1,7 +1,6 @@
-#include "review.h"
+#include "review.hpp"
 int main(){
-    review review1(5, "excellent ", "the reviewwwwwwww is thisss. ------------------------------------------- GOOD");
-    review1.displayDetails();
-    
+    review review1(4, "good ", "the reviewwwwwwww is thisss. ------------------------------------------- DECENT");
+    review1.displayDetails();    
     return 0;
 }

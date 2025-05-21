@@ -63,6 +63,13 @@ build CMakeFiles/MyApp.dir/review.cpp.o: CXX_COMPILER__MyApp_unscanned_Debug /ho
   OBJECT_DIR = CMakeFiles/MyApp.dir
   OBJECT_FILE_DIR = CMakeFiles/MyApp.dir
 
+build CMakeFiles/MyApp.dir/reviewBot.cpp.o: CXX_COMPILER__MyApp_unscanned_Debug /home/fyodor/VScode/GitProject/OOP_Cpp/reviewBot.cpp || cmake_object_order_depends_target_MyApp
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/MyApp.dir/reviewBot.cpp.o.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles/MyApp.dir
+  OBJECT_FILE_DIR = CMakeFiles/MyApp.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target MyApp
@@ -71,7 +78,7 @@ build CMakeFiles/MyApp.dir/review.cpp.o: CXX_COMPILER__MyApp_unscanned_Debug /ho
 #############################################
 # Link the executable MyApp
 
-build MyApp: CXX_EXECUTABLE_LINKER__MyApp_Debug CMakeFiles/MyApp.dir/main.cpp.o CMakeFiles/MyApp.dir/review.cpp.o
+build MyApp: CXX_EXECUTABLE_LINKER__MyApp_Debug CMakeFiles/MyApp.dir/main.cpp.o CMakeFiles/MyApp.dir/review.cpp.o CMakeFiles/MyApp.dir/reviewBot.cpp.o
   CONFIG = Debug
   DEP_FILE = CMakeFiles/MyApp.dir/link.d
   FLAGS = -g

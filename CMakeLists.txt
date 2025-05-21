@@ -8,6 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(SOURCES
     main.cpp
     review.cpp
+    reviewBot.cpp
 )
 
 
