@@ -2,7 +2,7 @@
 #include "reviewBot.hpp"
 int main() {
   review review1(4, "good ",
-                 "the reviewwwwwwww is thisss. "
+                 "the review is thisss. "
                  "------------------------------------------- DECENT");
   review1.displayDetails();
 
